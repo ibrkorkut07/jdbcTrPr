@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b00f63-608a-4b09-86c7-9c3376874501" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dbStepdefinitions/StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dbStepdefinitions/DBUtilStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1002_DBUtilRead.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1003_DBUtilsListeleme.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_DBUtilUpdate.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1001_DatabaseRead.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1001_DatabaseRead.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +41,76 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/jdbcTrPr/src/test/java/runner"
+    "last_opened_file_path": "C:/Users/ibrko/IdeaProjects/jdbcTrPr/src/test/resources/features"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ibrko\IdeaProjects\jdbcTrPr\src\test\resources\features" />
+      <recent name="C:\Users\ibrko\IdeaProjects\jdbcTrPr\src\test\java\utilities" />
       <recent name="C:\Users\ibrko\IdeaProjects\jdbcTrPr\src\test\java\runner" />
       <recent name="C:\Users\ibrko\IdeaProjects\jdbcTrPr" />
-      <recent name="C:\Users\ibrko\IdeaProjects\jdbcTrPr\src\test\java\utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC04 Kullanici IDHotel degeri verilen Emaili update edebilmeli">
+    <configuration name="Feature: US1004_DBUtilUpdate" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_DBUtilUpdate.feature" />
+      <option name="GLUE" value="dbStepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="jdbcTrPr" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US1004_DBUtilUpdate" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Kullanici tablo ve field ismi ile sorgu yapabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1002_DBUtilRead.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="jdbcTrPr" />
+      <option name="NAME_FILTER" value="^Kullanici tablo ve field ismi ile sorgu yapabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanici tablo ve field ismi ile sorgu yapabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici tablo ve field ismi ile sorgu yapabilmeli" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC04 Kullanici IDHotel degeri verilen Emaili update edebilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1004_DBUtilUpdate.feature" />
+      <option name="GLUE" value="dbStepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="jdbcTrPr" />
+      <option name="NAME_FILTER" value="^TC04 Kullanici IDHotel degeri verilen Emaili update edebilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04 Kullanici IDHotel degeri verilen Emaili update edebilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC04 Kullanici IDHotel degeri verilen Emaili update edebilmeli" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbcTrPr" />
       <extension name="coverage">
@@ -68,6 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC04 Kullanici IDHotel degeri verilen Emaili update edebilmeli" />
+        <item itemvalue="Cucumber Java.Feature: US1004_DBUtilUpdate" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici tablo ve field ismi ile sorgu yapabilmeli" />
         <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
